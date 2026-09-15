@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Gaussian Splat Viewer</title>
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <h1>3D Gaussian Splat Viewer</h1>
+    </header>
+
+    <div class="controls">
+      <button class="scene-button active" data-scene="0">Scene 1</button>
+      <button class="scene-button" data-scene="1">Scene 2</button>
+      <button class="scene-button" data-scene="2">Scene 3</button>
+      <button class="scene-button" data-scene="3">Scene 4</button>
+
+      <div id="status" class="status">
+        Loading Scene 1...
+      </div>
+    </div>
+
+    <main id="viewer-container">
+      <div id="loading">Loading Scene 1...</div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
