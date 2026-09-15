@@ -32,7 +32,7 @@ const scenes = [
 
 const base = import.meta.env.BASE_URL;
 
-scenes.forEach((scene) => {
+scenes.forEach(scene => {
     scene.path = `${base}scenes/${scene.file}`;
 });
 
